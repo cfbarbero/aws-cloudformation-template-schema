@@ -30,12 +30,12 @@ VSCode instructions
     "yaml.format.enable": true,
     "yaml.trace.server": "verbose",
     "yaml.customTags": [
-        "!And",
+        "!And sequence",
         "!If",
-        "!Not",
-        "!Equals",
+        "!Not sequence",
+        "!Equals sequence",
         "!Or",
-        "!FindInMap",
+        "!FindInMap sequence",
         "!Base64",
         "!Cidr",
         "!Ref",
@@ -44,8 +44,10 @@ VSCode instructions
         "!GetAZs",
         "!ImportValue",
         "!Select",
+        "!Select sequence",
         "!Split",
-        "!Join"
+        "!Join sequence",
+        "!Condition"
     ],
     "json.schemas": [
         {
